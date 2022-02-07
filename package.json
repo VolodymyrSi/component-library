@@ -1,5 +1,8 @@
 {
-  "name": "TikTuk-components-lib",
+  "name": "@volodymyrsi/component-library",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/volodymyrsi"
+  },
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -22,5 +25,8 @@
   "module": "dist/esm/index.js",
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "react-bootstrap": "^2.1.2"
+  }
 }

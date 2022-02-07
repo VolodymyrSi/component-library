@@ -1,3 +1,5 @@
+import { Spinner } from "react-bootstrap";
+
 const LoadingSpinner = () => {
   return (
     <Spinner
